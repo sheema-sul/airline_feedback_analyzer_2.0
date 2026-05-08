@@ -172,9 +172,9 @@ Tweets.csv
 ## 📌 Output Includes
 
 ### Sentiment
-* Positive 😊
-* Neutral 😐
-* Negative 😠
+* Positive  
+* Neutral  
+* Negative  
 
 ### Category Detection
 * Flight Delay Issue
