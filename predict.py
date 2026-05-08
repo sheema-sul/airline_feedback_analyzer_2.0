@@ -36,7 +36,7 @@ def predict_sentiment(text):
         return "positive", clean_text
 
     # Negative keywords
-    if any(w in words for w in ["bad", "worst", "terrible", "rude"]):
+    if any(w in words for w in ["bad", "worst", "terrible", "rude","angry"]):
         return "negative", clean_text
 
     sequence = tokenizer.texts_to_sequences([clean_text])
