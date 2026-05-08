@@ -146,7 +146,7 @@ def analyze_text(text):
     category = choose_primary_category(categories)
     category_text = category.lower()
 
-    #Critical rule: cancellation
+    #Critical rule for flight cancellation
     if category == "Flight Cancellation":
         sentiment = "negative"
         severity = "High"
