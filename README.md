@@ -206,7 +206,7 @@ Tweets.csv
    git clone https://github.com/sheema-sul/airline_feedback_analyzer_2.0.git
 
 2. Navigate to project folder:
-   cd airline_feedback_analyzer
+   cd airline_feedback_analyzer_2.0
 
 3. Install dependencies:
    pip install -r requirements.txt
